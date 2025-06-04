@@ -1,0 +1,1 @@
+Environment for [bioformat command line tools](https://bio-formats.readthedocs.io/en/latest/users/comlinetools/index.html), [bioformats2raw](https://github.com/glencoesoftware/bioformats2raw), [raw2ometiff](https://github.com/glencoesoftware/raw2ometiff), etc.

@@ -1,0 +1,19 @@
+[project]
+authors = ["Nodar Gogoberidze <gnodar01@gmail.com>"]
+channels = ["conda-forge", "ome"]
+description = "Add a short description here"
+name = "bftools"
+platforms = ["osx-64"]
+version = "0.1.0"
+
+[tasks]
+
+[activation]
+env = { JAVA_OPTS = "-Djna.library.path=$PIXI_PROJECT_ROOT/.pixi/envs/default/lib/" }
+
+[dependencies]
+openjdk = ">=23.0.1,<24"
+python = "3.10.*"
+blosc = ">=1.21.6,<2"
+bioformats2raw = ">=0.9.4,<0.10"
+raw2ometiff = ">=0.7.1,<0.8"
